@@ -1,7 +1,7 @@
 
 # Rapport
 
-**Skriv din rapport här!**
+**Added a constraintlayout that i then added a few widgets into as children and played around with a few differnet attributes of those widgets like the positioning or colour of text for example. i then added a onclick function to the button widget that moves it from the bottom of the screen to the middle of the screen when you click the button.**
 
 _Du kan ta bort all text som finns sedan tidigare_.
 
