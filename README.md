@@ -1,7 +1,10 @@
 
 # Rapport
 
-**Added a constraintlayout that i then added a few widgets into as children and played around with a few differnet attributes of those widgets like the positioning or colour of text for example. i then added a onclick function to the button widget that moves it from the bottom of the screen to the middle of the screen when you click the button.**
+** The first few steps that was taken in this assignment was to create a variety of widgets and change it's attributes in some way. https://gyazo.com/5389506a80ae9d2777d0b1b6b45f2fd2 as shown in the screenshot some of the widgets has just been positionally changed but also changed in other ways. For example the textview's colour has been changed to red and the rating bar's amount of stars was changed to 8. When it comes to the button it was decided to create some minor code to add some functionality to it. A onclicklistener was created to make the program listen to if the button was clicked or not and a method was then created to add the desired functionality. 
+public void moveButton() {
+Button button = (Button) findViewById(R.id.button);
+button.setY(1000); This method makes the button change its Y-axis coordinate when it's being pressed. This method is later called upon by the onclicklistener method that was previously mentioned. https://gyazo.com/2ac008a35b5cc26b7709d3dd5a64ee83, In this screenshot it is being displayed what happens in the app when the button is pressed.  **
 
 _Du kan ta bort all text som finns sedan tidigare_.
 
